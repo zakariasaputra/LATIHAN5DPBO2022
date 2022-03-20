@@ -6,7 +6,7 @@ Repositori ini dibuat untuk memenuhi tugas latihan dari Mata Kuliah Desain Pemro
 * Mengganti font dan ukuran teks
   * Klik elemen yang ingin diubah di JFrame hingga muncul menu Palette dan Properties-nya. Di Properties, cari menu "font", kemudian sesuaikan jenis dan ukuran font yang diinginkan.
 * Mengubah nama variabel setiap komponen (misal komponen input NIM diberi nama variabel txtNim)
-  * Klik kanan elemen yang akan diubah di JFrame, lalu pilih menu "Change Variable Name..." dan ubahlah nama variabel sesuai kebutuhan.
+  * Klik kanan elemen yang akan diubah di JFrame, lalu pilih menu "Change Variable Name" dan ubahlah nama variabel sesuai kebutuhan.
 * Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
   * Cek apakah ada inputan data yang kosong atau tidak ada nilainya, dengan membandingkannya menggunakan `equals("")`. 
   * Jika ada inputan data yang kosong atau tidak ada nilainya, maka tampilkan pesan error.
@@ -17,13 +17,13 @@ Repositori ini dibuat untuk memenuhi tugas latihan dari Mata Kuliah Desain Pemro
 
 **Bonus**
 * Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap berkaitan dengan data mahasiswa. Pastikan penambahan ini ditampilkan juga di tabel
-  * Di sini saya menambahkan atribut inputan kelas, berikut langkah-langkahnya :
-    1.  Menambahkan label dan textfield untuk atribut kelas di desain JFrame.
-    2.  Menambahkan atribut beserta Setter-Getter di class-nya (Mahasiswa.java).
-    3.  Menambahkan data baru saat deklarasi `object[] column`, yakni "Kelas".
-    4.  Menambahkan data baru di deklarasi `object[] row`. Pada kasus ini kelas merupakan data keempat, maka objek yang diisi berada pada indeks ke-3.
-    5.  Pada method **insertData** dan **updateData**, ditambahkan variabel baru yang sesuai dan diisi dengan teks yang ada pada kotak.
-    6.  Pada method **tableMouseClicked**, ditambahkan baris untuk kolom kelas.
+  * Di sini saya menambahkan atribut inputan "Kelas", berikut langkah-langkahnya :
+   1.  Menambahkan label dan textfield untuk atribut kelas di desain JFrame.
+   2.  Menambahkan atribut beserta Setter-Getter di class-nya (Mahasiswa.java).
+   3.  Menambahkan data baru saat deklarasi `object[] column`, yakni "Kelas".
+   4.  Menambahkan data baru di deklarasi `object[] row`. Pada kasus ini kelas merupakan data keempat, maka objek yang diisi berada pada indeks ke-3.
+   5.  Pada method **insertData** dan **updateData**, ditambahkan variabel baru yang sesuai dan diisi dengan teks yang ada pada kotak.
+   6.  Pada method **tableMouseClicked**, ditambahkan baris untuk kolom kelas.
 
 ### Tools
 - [Apache Netbeans](https://netbeans.apache.org/)
